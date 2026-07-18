@@ -490,5 +490,27 @@ EARTH FEEDS AGRO DEALERS IN NUMBERS
     background:#1ebe5d;
 }
 </style>
+ <script>
+
+function sendWhatsApp(){
+
+let name=document.getElementById("name").value;
+let phone=document.getElementById("phone").value;
+let message=document.getElementById("message").value;
+
+let text=
+"Hello Earth Feeds Agro Dealers,%0A%0A"+
+"Name: "+name+"%0A"+
+"Phone: "+phone+"%0A"+
+"Message: "+message;
+
+window.open(
+"https://wa.me/254799905550?text="+text,
+"_blank"
+);
+
+}
+
+</script>    
 </body>
 </html>

@@ -662,6 +662,16 @@ counterObserver.unobserve(counter);
 counters.forEach(counter=>{
 counterObserver.observe(counter);
 });
-</script>     
+</script>
+<script>
+window.addEventListener("load",function(){
+
+const loader=document.getElementById("loader");
+
+loader.style.opacity="0";
+loader.style.visibility="hidden";
+
+});
+</script>    
 </body>
 </html>

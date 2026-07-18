@@ -1,20 +1,212 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>EARTH FEEDS AGRO DEALERS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EARTH FEEDS AGRO DEALERS</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f8f2;
+color:#333;
+}
+
+header{
+background:#2E7D32;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+font-size:28px;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1600");
+background-size:cover;
+background-position:center;
+height:85vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h2{
+font-size:52px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 30px;
+margin:10px;
+background:#4CAF50;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-weight:bold;
+}
+
+section{
+padding:70px 10%;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+}
+
+.card p{
+padding:0 15px 20px;
+}
+
+footer{
+background:#1B5E20;
+color:white;
+text-align:center;
+padding:30px;
+}
+</style>
+
 </head>
-<body style="font-family:Arial;text-align:center;padding:40px;">
-    <h1>🌱 EARTH FEEDS AGRO DEALERS</h1>
-    <p>Your trusted agrovet partner.</p>
+<body>
 
-    <h2>Products</h2>
-    <p>Animal Feeds</p>
-    <p>Veterinary Medicines</p>
-    <p>Seeds</p>
-    <p>Fertilizers</p>
+<header>
 
-    <h2>Contact Us</h2>
-    <p>📞 Phone: Your Number</p>
-    <p>📍 Karatina, Kenya</p>
+<h1>🌿 EARTH FEEDS AGRO DEALERS</h1>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h2>Growing Agriculture,<br>Feeding Success</h2>
+
+<p>Your trusted Agrovet in Karatina Town.</p>
+
+<a class="btn" href="tel:+254799905550">📞 Call Now</a>
+
+<a class="btn" href="https://wa.me/254799905550">💬 WhatsApp</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 style="text-align:center;margin-bottom:40px;">Featured Products</h2>
+
+<div class="products">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=600">
+
+<h3>Certified Seeds</h3>
+
+<p>High-quality certified seeds for better harvests.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1592982537447-6f2a6a0c8e74?w=600">
+
+<h3>Animal Feeds</h3>
+
+<p>Quality feeds for dairy, poultry and livestock.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1622383563227-04401ab4e5ea?w=600">
+
+<h3>Veterinary Products</h3>
+
+<p>Trusted medicines and animal health products.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section style="background:white;text-align:center;">
+
+<h2>Visit Us</h2>
+
+<br>
+
+<p><strong>📍 Karatina Town, Nyeri County</strong></p>
+
+<p>📞 0799 905 550</p>
+
+<p>📧 charlessmaina.109@gmail.com</p>
+
+<p>🕗 Monday - Saturday | 8:00 AM - 6:00 PM</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 EARTH FEEDS AGRO DEALERS. All Rights Reserved.</p>
+
+</footer>
+
 </body>
 </html>
